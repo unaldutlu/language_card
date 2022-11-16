@@ -2,8 +2,63 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Lobster', cursive;
+}
+p{
+  font-size: 1.05rem;
+}
+.App {
+  min-height: 100vh;
+  background-color: rgb(15, 131, 226);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
 }
 
 img{
-  width: 5rem;
+  width: 6rem;
+}
+
+
+.image {
+  width: 4rem;
+  max-height: 3.6rem;
+  transition: all 0.2s;
+}
+.image:hover{
+  transform: scaleX(1.3);
+}
+
+
+.frame {
+  border: 1px solid brown;
+  width: 39rem;
+  border-radius: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(113, 198, 219);
+  cursor: pointer;
+}
+
+.cards {
+  border: 1px solid blue;
+  width: 13rem;
+  height: 6.5rem;
+  background-color: rgb(162, 199, 201);
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+@media screen and (max-width:540px) {
+  .frame {
+    width: 20rem;
+  }
+}
+@media screen and (max-width:290px) {
+  .frame {
+    width: 15rem;
+  }
 }

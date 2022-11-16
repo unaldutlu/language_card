@@ -21,12 +21,12 @@ const languages = [
     options: ["Website Design", "1994", "Håkon Wium Lie"],
   },
   {
-    name: "javascript",
+    name: "JavaScript",
     img: javaScript,
     options: ["Website Development", "1995", "Brendan Eich"],
   },
   {
-    name: "typeScript",
+    name: "TypeScript",
     img: typeScript,
     options: ["Superset of JavaScript", "2012", "Anders Hejlsberg "],
   },
